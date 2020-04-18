@@ -1,0 +1,391 @@
+/* FLEXBOX */
+.container {
+  display: flex; /* or inline-flex */
+}
+
+.flex-container {
+  background-color: none;
+  padding: 10;
+  margin: 10;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.wrap li {
+  background: #deeaf2;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.flex-item {
+  padding: 5px;
+  width: 191px;
+  height: 235px;
+  margin: 20px;
+}
+img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=1);
+  width: 181px;
+  height: 181px;
+}
+
+/* POSISJONEN TIL DE ULIKE BORDER */
+.main {
+  margin: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.form-horizontal {
+  width: 90%;
+  padding: 12px 30px;
+  margin: 14px;
+  display: inline-block;
+}
+
+/* Styling av beløpet */
+.PrisText {
+  font-weight: bold;
+  color: red;
+  font-size: 25px;
+}
+
+.ramme {
+  margin: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Shadow på ting som ikke er CARD */
+.borderShadow {
+  background-color: #eaf7ff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 15px;
+}
+.shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* SIDENAV */
+.col-md-2 {
+  background-color: #f8f9fa !important;
+  padding-top: 10px;
+  border: 1px solid #c9dbdb;
+  border-top: none;
+  font-size: 1rem;
+}
+
+.col-md-2 a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+  display: block;
+}
+
+.col-md-2 a:hover {
+  color: #9cbdbd;
+}
+
+/* LOADER */
+.spinner {
+  margin: 150px auto 0;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.table {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.brBottom {
+  margin-bottom: 30px;
+}
+
+.doubleBr {
+  margin-bottom: 60px;
+}
+
+.brRight {
+  margin-right: 30px;
+}
+.active {
+  color: black;
+  font-size: 17px;
+}
+
+.vrsl-container {
+  font-size: 14px;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+}
+
+.vrsl {
+  color: #fff;
+  padding: 15px 15px 15px 50px;
+  transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 6px;
+  width: 300px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 20px grey;
+  opacity: 0.9;
+  background-position: 15px center !important;
+  background-repeat: no-repeat !important;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==');
+}
+
+.vrsl-success {
+  background: #5fcc5f;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==');
+}
+
+.vrsl-danger {
+  background: #d6352c;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=');
+}
+
+.vrsl:hover {
+  box-shadow: 0 0 12px #000000;
+  opacity: 1;
+}
+
+.vrsl-tittel {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 6px;
+  word-wrap: break-word;
+}
+
+.vrsl-melding {
+  margin: 0;
+  text-align: left;
+  word-wrap: break-word;
+}
+/* div'en rundt buttons --> Kunde */
+.lenke {
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 16px;
+  margin: 50px 200px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.lenke1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f8f9fa !important;
+  border-radius: 10px;
+}
+
+.lenke1:hover {
+  background-color: #deeaf2;
+  color: white;
+}
+
+.lenke2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f8f9fa !important;
+  border-radius: 10px;
+}
+
+.lenke2:hover {
+  background-color: #deeaf2;
+  color: white;
+}
+
+.js-hidden {
+  display: none;
+}
+
+.vaermelding {
+  /*styling matcher yr-boksen*/
+  box-sizing: border-box;
+  width: 468px;
+  height: 300px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.coverWeather {
+  /*gjør yr-boksen uklikkbar*/
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.coverWeather2 {
+  /*gjør yr-boksen uklikkbar*/
+  box-sizing: border-box;
+  width: 100%;
+  height: 110px;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(249,253,255);
+  border-top: 1px solid blue;
+}
+
+.coverConfirmBox {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  opacity: 0.3;
+}
+
+.confirmBox {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 5;
+  top: 30%;
+  margin-left: 30%;
+  width: 40%;
+  height: 200px;
+  padding: 20px;
+
+  background-color: white;
+  border-radius: 20px;
+  border-style: lightgrey, 2px, solid;
+
+  text-align: center;
+  padding-top: 20px;
+  color: black;
+}
+
+.loginBox {
+  /*justering av confirmBox*/
+  top: 20%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  padding: 30px;
+}
+
+.confirmBox > button {
+  box-sizing: border-box;
+  width: 30%;
+  height: 40px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.confirmBox > button:hover {
+  background-color: lightgrey;
+}
+.nav-link {
+  display: block;
+  padding: 0.9rem 1rem;
+}
+
+/* Tekst */
+a {
+  color: #66686b;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+/* hover av alle bestillinger */
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  font-size: 15px;
+  color: black;
+  background-color: #f9fdff;
+
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa !important;
+}
+
+/* Alle bestillinger */
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+
+.js-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.kundeinput {
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.bestillingInput {
+  border: 2px solid #dee0e2;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.boxColor {
+  background-color: #f9fdff;
+}
+
+.avd_select {
+  margin-top: 8px;
+  margin-left: 20px;
+}
