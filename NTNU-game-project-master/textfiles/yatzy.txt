@@ -1,0 +1,125 @@
+<div class="ybrett">
+  <table id="yTable">
+    <tr  class="yNavn">
+      <th>Navn</th>
+      <th id="yS1_" class="yNavnUthev">Du</th>
+      <th id="yS2_">Motstander</th>
+    </tr>
+    <tr>
+      <th class="yKombo">Enere</th>
+      <td id="yS1_1"></td>
+      <td id="yS2_1"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Toere</th>
+      <td id="yS1_2"></td>
+      <td id="yS2_2"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Treere</th>
+      <td id="yS1_3"></td>
+      <td id="yS2_3"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Firere</th>
+      <td id="yS1_4"></td>
+      <td id="yS2_4"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Femmere</th>
+      <td id="yS1_5"></td>
+      <td id="yS2_5"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Seksere</th>
+      <td id="yS1_6"></td>
+      <td id="yS2_6"></td>
+    </tr>
+    <tr class="ySum">
+      <th class="yKombo">Sum</th>
+      <td id="yS1_litenSum"></td>
+      <td id="yS2_litenSum"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Bonus</th>
+      <td id="yS1_bonus"></td>
+      <td id="yS2_bonus"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Par</th>
+      <td id="yS1_par"></td>
+      <td id="yS2_par"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">To par</th>
+      <td id="yS1_toPar"></td>
+      <td id="yS2_toPar"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Tre like</th>
+      <td id="yS1_treLike"></td>
+      <td id="yS2_treLike"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Fire like</th>
+      <td id="yS1_fireLike"></td>
+      <td id="yS2_fireLike"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Liten straight</th>
+      <td id="yS1_litenStraight"></td>
+      <td id="yS2_litenStraight"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Stor straight</th>
+      <td id="yS1_storStraight"></td>
+      <td id="yS2_storStraight"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Hus</th>
+      <td id="yS1_hus"></td>
+      <td id="yS2_hus"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Sjanse</th>
+      <td id="yS1_sjanse"></td>
+      <td id="yS2_sjanse"></td>
+    </tr>
+    <tr>
+      <th class="yKombo">Yatzy</th>
+      <td id="yS1_yatzy"></td>
+      <td id="yS2_yatzy"></td>
+    </tr>
+    <tr class="ySum">
+      <th class="yKombo">Totalsum</th>
+      <td id="yS1_totalsum"></td>
+      <td id="yS2_totalsum"></td>
+    </tr>
+  </table>
+
+<!--Valgmeny, en trilleknapp, kan også benytte "SPACEBAR"-->
+  <button id="btnRull" class="yatbtn" type="button">Trill terningene</button>
+
+<!--Terningene visuelt fremstilt, klikkbare via JS for å kunne spare til neste kast-->
+  <div id="wrTerning" >
+    <div id="yTerningDiv0" class="terning">
+      <img id="yTerning0" src="img/dice1.png" alt="terning">
+    </div>
+    <div id="yTerningDiv1" class="terning">
+      <img id="yTerning1" src="img/dice1.png" alt="terning">
+    </div>
+    <div id="yTerningDiv2" class="terning">
+      <img id="yTerning2" src="img/dice1.png" alt="terning">
+    </div>
+    <div id="yTerningDiv3" class="terning">
+      <img id="yTerning3" src="img/dice1.png" alt="terning">
+    </div>
+    <div id="yTerningDiv4" class="terning">
+      <img id="yTerning4" src="img/dice1.png" alt="terning">
+    </div>
+  </div>
+</div>
+<div id="yatCover" class="yatHide yatCover">
+  <p id="txtUt"></p>
+  <button id="btnYatEnd">Videre</button>
+</div>

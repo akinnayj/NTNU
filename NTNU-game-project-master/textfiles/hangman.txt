@@ -1,0 +1,12 @@
+<div class="hangContainer">
+  <input type="text" placeholder="Gjett en bokstav"
+  id="userInput" maxlength="1" autofocus autocomplete="off" class="inp">
+  <button id="guessbtn" class="hangbtn">Gjett</button>
+
+  <div class="hangLetter">Antall liv igjen: <span id="lifeCountHang">10</span></div>
+  <div id="notAvailable" class="warning hangLetter">&nbsp;</div>
+  <div class="hangLetter">Brukte bokstaver:
+    <p id="usedLetters">&nbsp;</p>
+  </div>
+</div>
+<canvas id="canvasHang" width="600" height="435"></canvas>

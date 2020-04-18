@@ -1,0 +1,35 @@
+﻿Spillet i sin nåværende tilstand er testet og fungerer i følgende nettlesere:
+- Chrome
+- Opera
+- Microsoft Edge
+- Firefox
+
+Spillet fungerer ikke i følgende nettleser:
+-Internet Explorer
+
+Støtte på operativsysytem:
+- Windows Ja
+- Linux Ja
+- AppleOS - ikke testet
+- Android ja
+
+Filene er validert med hjelp fra følgende sider:
+	HTML:	https://validator.w3.org/#validate_by_upload
+	CSS:	https://jigsaw.w3.org/css-validator/#validate_by_upload
+	JS:	http://esprima.org/demo/validate.html
+	JSON:	https://jsonlint.com/
+
+For lettere testing av spillet annbefales følgende:
+- For å navigere mellom spill, benytt følgende funksjon i kommandolinjen:
+	proceedToGame("tictactoe")
+	proceedToGame("hangman")
+	proceedToGame("yatzy")
+
+- For hurtig avslutting av spill benytt f�lgende funksjoner i kommandolinjen:
+	tictactoe/bondesjakk:
+	- endGameTic()
+	hangman:
+	 - vinn: winHang()
+  	 - tap:  looseHang()
+	yatzy:
+	- endGameYat()

@@ -1,0 +1,504 @@
+{
+  "c":    {
+              "main":"<u>INTRO</u><br>Du våkner med et rykk uten å huske noe, hverken ditt eget navn, hvor du er eller hva som har skjedd. I løpet av de neste sekundene går det sakte opp for deg. Du ser deg rundt og ser Brynjar og Tord sove halvveis oppå hverandre på benken ved det digre middagsbordet i rommet ved siden av. På bordet er det matrester og veltede kopper strødd jevnt utover, og en stor snorkende kropp ligger under det. ‘Litt av en fest i går kveld’ mumler du lavt for deg selv. Du og vennene dine fra landsbyen hadde hatt utdrikningslag for Varg, din aller beste venn som skal gifte seg med Hjørdis, datteren til høvdingen. Som alltid når du steller i stand festligheter, ble kvelden sen og ølet borte. Hodepinen som økte gradvis i styrke var et solid bevis på dette.‘Voff!’ kom det fra fotenden av sengen i det du prøver å reise deg opp. Du skvetter til da du ser den digre rufsete hunden løpe bort til deg. Den setter seg ned og glaner intenst på deg. ‘Hva i svarte, hva gjør en hund her,’ tenker du, ‘ingen her har da bikkje?’ Du går bort til Brynjar og Tord og vekker de. ‘Stå opp latsabber. Hvordan havnet en bikkje inn her i går kveld?’ ‘Ååårgh, hva er klokka?’ stønner Tord i det han setter seg opp og myser dumt på deg. ‘Det er langt på dag. Hva med hunden?’ spør du. Tord grubler litt før han blir blek i ansiktet. ‘Åååå herregud, det var han lille trollmannslærlingen! Vi dreiv å terga han litt for mye i går kveld, spesielt Varg, så han ble forbanna og gjorde noen tryllegreier! Poff så ble Varg til en hund!’ Etter å ha kommet over det første sjokket innser dere at dere må få hjulpet Varg (navnet virket nesten ironisk nå) og få reversert trylleformelen før bryllupet om to dager. Hjørdis ville neppe gifte seg med en kjøter, selv om Brynjar, som endelig hadde våknet, påpekte at det var jo det hun i utgangspunktet skulle. Den eneste som var kyndig til å forvandle Varg tilbake var overtrollmannen som bodde flere landsbyer unna",
+
+              "opt1":
+              "Du ser på kompisene dine. ‘Jeg og Varg drar til overtrollmannen alene. Dere blir her og finner på noe å si til Hjørdis’",
+
+              "opt2":
+              "‘Ok gutter, vi drar alle sammen. Vi må komme oss avgårde med en gang så ikke Hjørdis mistenker noe’",
+
+              "img":
+              "intro.jpg"
+  },
+
+  "c1": {
+              "main":
+              "Du begynner på den lange veien til Åskersand med hunden Varg pesende hakk i hel. Selv som hund var han i dårlig form. Etter mange timers vandring kommer du til nabolandsbyen, hvor dere bestemmer dere for å ta en pause på et vertshus. Du får rare blikk når du serverer «hunden din» et par slurker øl. Ved siden av dere sitter en kraftig mann. Han spør om du ønsker å spille en omgang bondesjakk; taperen kjøper neste runde. Du sier selvsagt ja.",
+
+              "opt1":
+              "Spill bondesjakk",
+
+              "opt2":
+              "Ikke spill bondesjakk, men gjør det likevel",
+
+              "img":
+              "sti3.jpg",
+
+              "spill":"TICTACTOE"
+  },
+
+  "c2": {
+              "main":
+              "Alle fire trasker nedover stien. Etter en stund ankommer dere nabolandsbyen, hvor du foreslår å ta et par øl på en av de lokale vertshusene, men du blir raskt nedstemt av Brynjar (som etter gårsdagen sverget på å aldri innta en eneste øl noen sinne). Dere bestemmer dere heller for å se dere litt om i byen, og kommer over den store åpne plassen hvor en rettsak foregår. En fattig ung lommetyv skal henges for sine forbrytelser.",
+
+              "opt1":
+              "Ta til ordet for å redde tyven",
+
+              "opt2":
+              "Tyven minner deg om en hjemmefra, du ønsker å redde ham",
+
+              "img":
+              "vertshus.jpg",
+
+              "spill":"HANGMAN"
+  },
+
+  "c11": {
+              "main":
+              "“Hahaha, alt for lett!” ler mannen. Du spanderer neste runde og dere begynner å prate sammen. Han forteller at han er på vei for å møte en gammel venn i samme by som deg, og spør om dere skal slå følge.",
+
+              "opt1":
+              "Du takker ja til å slå følge. ",
+
+              "opt2":
+              "Du takker høflig nei til å slå følge; mannen virker ikke som den mest pålitelige typen",
+
+              "img":
+              "vertshus.jpg"
+
+  },
+
+  "c12": {
+              "main":
+              "Brått reiser mannen seg i sinne og brøler «NEEEI det var meningen at jeg skulle vinne!!!!» Han begynner å gå løs på deg og du prøver å forsvare deg men han er mange ganger sterkere enn deg. Varg glefser etter han men den illsinte fyren sparker han unna. En annen gjest får stanset slåsskampen og du kommer deg unna.",
+
+              "opt1":
+              "Du og Varg løper ut av byen. ",
+
+              "opt2":
+              "Du og Varg gjemmer dere i et smug",
+
+              "img":
+              "vertshus.jpg"
+  },
+
+  "c21": {
+              "main":
+              "Dessverre så er ingen av forsøkene dine på å redde lommetyven vellykkede. Han blir hengt og dere bestemmer dere for å fortsette på veien til trollmannen. Det nærmer seg kveld og dere stopper ved skogkanten ved stien for å spise litt og ta en liten lur. Dere blir vekt etter noen timer av rasling i fra skogen. En flokk med skogstroll kommer løpende ut. Når de ser dere bestemmer de seg for at dere hadde vært et utsøkt middagsmåltid og tar dere med til hulen sin.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "hule.jpg"
+  },
+
+  "c22": {
+              "main":
+              "Er det noe du kan så er det å argumentere. Du har kverulert med dommerne i en god time allerede, og de har gått lei og lar lommetyven gå. Han introduserer seg som Bjørnar og takker deg for din godhet. Bjørnar insisterer på å gjøre noe i gjengjeld for at du reddet livet hans, så han tilbyr deg tre av sine beste (stjålne) hester. Dere rir sammen ut av landsbyen med Varg sprintende etter. Takket være det nye framkomstmidlet kommer dere fram til landsbyen hvor trollmannen bor innen soloppgang dagen etter.",
+
+              "opt1":
+              "Oppsøk trollmannens hus ",
+
+              "opt2":
+              "Dra til det nærmeste vertshus for en rastepause",
+
+              "img":
+              "sti1.jpg"
+  },
+
+  "c111": {
+              "main":
+              "Dagen etter fortsetter dere ferden. Mannen fra baren heter visst Ståle. Han leder deg og Varg på en snarvei gjennom skogen som han påstår å kjenne godt til. Etter hvert virker han mer og mer usikker på hvor dere skal gå og innrømmer til slutt å ha gått seg vill.",
+
+              "opt1":
+              "Dere bestemmer dere for å fortsette å gå i samme retning og satse på at dere finner igjen snarveien til Ståle.",
+
+              "opt2":
+              "Du mener det beste er å stanse og hvile litt før dere fortsetter. Det begynner tross alt å bli mørkt.",
+
+              "img":
+              "skog1.jpg"
+  },
+
+  "c112": {
+              "main":
+              "Du og Varg drar videre alene. Dere holder dere til hovedveien og stopper innimellom for litt mat og søvn. I to dager går dere, før dere på den andre dagen stopper innom en hytte på veien. Her møter dere en eldre dame, som ønsker dere velkommen og tilbyr dere mat og drikke. Hun spør hva dere skal og du forteller henne hele historien om utdrikningslaget og den uheldige trylleformelen. Den gamle damen ler. «Dere ungdommer altså. Heldig for deg, Varg, så var jeg en heks med fagbrev før jeg pensjonerte meg. Jeg kan hjelpe dere så slipper dere å dra helt til trollmann Stein! Men det er en betingelse; dere er de første gjestene jeg har hatt på en lang stund, så jeg vil at dere spiller yatzy med meg, det er så lenge siden jeg har hatt noen å spille med»",
+
+              "opt1":
+              "Ja, yatzy spiller vi gjerne! Varg uler seg enig",
+
+              "opt2":
+              "Nja, litt tvilende til  å spille, men la gå.",
+
+              "img":
+              "skog1.jpg",
+
+              "spill":
+              "YATZY"
+  },
+
+  "c121": {
+              "main":
+              "Etter en drøy halvtimes løping stanser dere. Det har begynt å pøsregne, så dere søker ly i en grotte i fjellsiden like ved. Dere oppdager at det henger fakler på veggen lenger inn i hulen, og går for å sjekke det ut. Ved et lite bål sitter en gammel dverg og griller noe som ligner et ekorn. Han skvetter i det han ser dere og tar fram øksa si. Dvergen ber deg om å gi han alt du har av verdisaker. Du vet godt at du ikke har noe av verdi, så du foreslår at hvis du kan svare riktig på en av dvergens gåter (dverger elsker gåter), så skal han la deg gå. Jeg trives blant tyver og blant de villeste ville. Jeg er alltid til stede når noen tar en hvil. Jeg trives i hvite omgivelser, men ikke i røde og grønne. Blant verdensmestrene er jeg alltid først, og jeg finnes til slutt i hvert eneste liv, men aldri i døden. Hvem er jeg?",
+
+              "opt1":
+              "Bokstaven v",
+
+              "opt2":
+              "Tid",
+
+              "img":
+              "hule.jpg"
+  },
+
+  "c122": {
+              "main":
+              "Dessverre så er dere ikke alene i smuget. Du blir møtt av tre medlemmer av den beryktede alvemafiaen som tar dere til fange.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "regn.gif"
+  },
+
+  "c221": {
+              "main":
+              "Dere går rundt i landsbyen og spør forbipasserende om retningen til trollmannens hus. Etterhvert finner dere fram og trollmann Stein slipper dere inn. Dere forklarer situasjonen og Stein går med på å hjelpe dere på en betingelse: Du må svare på en gåte som Stein har prøvd å løse i mange år uten hell. Jeg er pensjonist. Hvis du bytter om tallene i min alder, får du alderen på sønnen min. For ett år siden var jeg dobbelt så gammel som ham. Hvor gamle er vi to i dag?",
+
+              "opt1":
+              "37 og 73",
+
+              "opt2":
+              "25 og 52",
+
+              "img":
+              "intro.jpg"
+  },
+
+  "c222": {
+              "main":
+              "Dere finner et vertshus i en liten sidegate. Dere kjøper alle en øl hver (unntatt Varg såklart, hunder tåler ikke alkohol), og en blir til flere. Til slutt er dere ganske berusede og trøtte.",
+
+              "opt1":
+              "Lei et rom på vertshuset for natten før dere drar til trollmannen. ",
+
+              "opt2":
+              "Dra til trollmannen med en gang",
+
+              "img":
+              "vertshus.jpg"
+  },
+
+  "c1111": {
+              "main":
+              "Etter mye om og men finner Ståle fram til en elv, hvor han stopper. «Nå vet jeg hvor vi er! Vi er bare en halvtime unna Åskersand og trollmannen!»",
+
+              "opt1":
+              "Gå den raskeste veien til landsbyen: over elven.",
+
+              "opt2":
+              "Gå den lange veien rundt elven",
+
+              "img":
+              "udef3.jpeg"
+  },
+
+  "c1112": {
+              "main":
+              "Dere finner en liten hule i en bergside og legger dere ned for å hvile litt. Alle er utslitte og sovner raskt. Du våkner av skrik og hyl og oppdager til din store skrekk at hulen dere har sovet i er et bjørnehi og Ståles høye snorking har vekket bjørnen. Dere blir et lett måltid for den forbannede bjørnen.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "hule.jpg"
+  },
+
+  "c1121": {
+              "main":
+              "Den gamle damen gliser fornøyd og går i gang med å tilberede en drikk med ingredienser fra et lite skap. Hun heller brygget i en skål og gir det til Varg som slurper det i seg mens han rynker på snuten. Foran øynene dine forvandles han tilbake til sitt vanlige, lubne selv, dog liggende naken og forvirret på gulvet. Turen hjem går mye raskt. Varg kan nesten ikke vente til å se Hjørdis igjen. Vel hjemme blir dere møtt av Brynjar og Tord, og noen dager senere blir Varg og Hjørdis gift.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef2.png"
+  },
+
+  "c1122": {
+              "main":
+              "Heksa er tydeligvis en dårlig taper, for hun begynner å slenge sammen ingredienser mens hun furter og mumler til seg selv. Det virker ikke som hun tar seg veldig god tid til å lage trylledrikken. Hun setter en skål med den illeluktende guffen foran Varg, som motvillig drikker det. Til din (og Vargs) skrekk har Varg forvandlet seg til en slags menneske-hund-hybrid, med bygningen til en voksen mann men med pels og hoggtenner.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef5.jpg"
+  },
+
+  "c1211": {
+              "main":
+              "Motvillig lar dvergen dere gå, og dere fortsetter på vei mot trollmannen. Etter to hele dagers reise kommer dere omsider fram til landsbyen Åskersand.",
+
+              "opt1":
+              "Gå rundt og bank på dører I landsbyen og spør hvor trollmannen bor.",
+
+              "opt2":
+              "Ta en pause på nærmeste vertshus",
+
+              "img":
+              "udef4.jpeg"
+  },
+
+  "c1212": {
+              "main":
+              "Dvergen gliser bredt og forlanger at dere gir han alt dere har. Dere har ingenting å gi han. Dvergen er overbevist over at du lyver, og hugger dere ned i sinne.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef5.jpg"
+  },
+
+  "c2211": {
+              "main":
+              "«Så klart!» utbryter Stein. «Som takk skal jeg så klart hjelpe dere!» Stein legger hendene på Varg og sier en trylleformel. Plutselig står Varg i menneskeform foran deg (uten klær, men likevel). Noen dager senere er dere hjemme igjen og bryllupet blir holdt. Trollmannslærlingen ble ikke invitert.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef2.png"
+  },
+
+  "c2212": {
+              "main":
+              "Du svarer feil og Stein ser skuffet på deg. «Jeg kommer ikke til å hjelpe deg hvis du kun er 99,9% motivert!» Dere forlater Steins hus og begynner på turen hjem igjen. Alt håp er ute og Varg forblir ungkar og hund for resten av livet",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "regn.gif"
+  },
+
+  "c2221": {
+              "main":
+              "Dagen etter drar dere ut og spør forbipasserende i landsbyen om retningen til trollmannens hus. Etterhvert finner dere fram og trollmann Stein slipper dere inn. Dere forklarer situasjonen og Stein går med på å hjelpe dere på en betingelse: Han har nettopp funnet opp et nytt spill kalt yatzy, og han vil at du skal teste det ut.",
+
+              "opt1":
+              "Spill Yatzy",
+
+              "opt2":
+              "Beklager, du har ikke noe valg - spill Yatzy",
+
+              "img":
+              "udef1.jpg",
+
+              "spill":
+              "YATZY"
+  },
+
+  "c2222": {
+              "main":
+              "Dere sjangler ut i gatene og leter etter trollmannens hus. Du og vennene dine er dessverre noen høylytte fylliker og blir satt i fyllearresten av landsbyvaktene.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef5.jpg"
+  },
+
+  "c11111": {
+              "main":
+              "Dere bestemmer dere for å ta «snarveien» gjennom elven. Du tar Varg over skulderen og vader uti vannet. Strømmen er sterkere enn du trodde og drar dere ned over strykene hvor dere dessverre møter deres undergang.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef5.jpg"
+  },
+
+  "c11112": {
+              "main":
+              "Dere konkluderer med at det er alt for farlig å vasse over elven, så dere går heller den litt lengre veien rundt. Dere kommer til slutt til landsbyen. Ståle sier takk for laget og dere skiller lag. Du og Varg oppsøker trollmannens hus, hvor dere banker på. En gammel, høyreist mann åpner døren og ber dere inn. Han introduserer seg som trollmann Stein og du forteller om situasjonen deres. Stein går med på å hjelpe dere på en betingelse: Du må svare på en gåte som Stein har prøvd å løse i mange år uten hell. 'Jeg trives blant tyver og blant de villeste ville. Jeg er alltid til stede når noen tar en hvil. Jeg trives i hvite omgivelser, men ikke i røde og grønne. Blant verdensmestrene er jeg alltid først, og jeg finnes til slutt i hvert eneste liv, men aldri i døden. Hvem er jeg?'",
+
+              "opt1":
+              "Bokstaven V",
+
+              "opt2":
+              "Tid",
+
+              "img":
+              "udef4.jpeg"
+  },
+
+  "c12111": {
+              "main":
+              "Dere kommer til slutt til en hytte i utkanten av landsbyen, hvor en gammel dame åpner døra. Hun ønsker dere velkommen inn og tilbyr dere mat og drikke. Hun spør hva dere skal og du forteller henne hele historien om utdrikningslaget og den uheldige trylleformelen. Den gamle damen ler. «Dere ungdommer altså. Heldig for deg, Varg, så var jeg en heks med fagbrev før jeg pensjonerte meg. Jeg kan hjelpe dere så slipper dere å dra til trollmann Stein! Men det er en betingelse; dere er de første gjestene jeg har hatt på en lang stund, så jeg vil at dere spiller yatzy med meg, det er så lenge siden jeg har hatt noen å spille med»",
+
+              "opt1":
+              "Ja, yatzy spiller vi gjerne! Varg uler seg enig",
+
+              "opt2":
+              "Nja, litt tvilende til  å spille, men la gå.",
+
+              "img":
+              "skog1.jpg",
+
+              "spill":
+              "YATZY"
+  },
+
+  "c12112": {
+              "main":
+              "Dere setter dere på et gammelt vertshus. Til deres store overraskelse sitter trollmann Stein der også. Dere går bort og prater med han. Du forteller om situasjonen deres. Stein går med på å hjelpe dere på en betingelse: Du må svare på en gåte som Stein har prøvd å løse i mange år uten hell. Det ligger bak stjernene og under bakker, og fyller tomme hull. Det kommer først og følger rett etterpå, og gjør slutt på liv og latter.",
+
+              "opt1":
+              "Mørket",
+
+              "opt2":
+              "Stillhet",
+
+              "img":
+              "vertshus.jpg"
+  },
+
+  "c22211": {
+              "main":
+              "«Synd for deg, men spillet ligger helt klart an til å bli en hit! Takk for at dere prøvde det.» Som lovet gjør trollmannen sitt og forvandler Stein Varg til et menneske igjen. Noen dager senere er dere hjemme igjen, men ting har tydeligvis skjedd siden dere dro hjemmefra. Siden dere dro så plutselig og uten forvarsel har Hjørdis tatt seg friheten til å bli sammen med trollmannslærlingen. ",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef1.jpg"
+  },
+
+  "c22212": {
+              "main":
+              "«Hmm, det er ikke likt meg å tape, men takk for at dere prøvde det.» Som lovet gjør trollmannen sitt og forvandler Stein Varg til et menneske igjen. Noen dager senere er dere hjemme igjen, men ting har tydeligvis skjedd siden dere dro hjemmefra. Siden dere dro så plutselig og uten forvarsel har Hjørdis tatt seg friheten til å bli sammen med trollmannslærlingen. ",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef1.jpg"
+  },
+
+  "c111121": {
+              "main":
+              "«Så klart!» utbryter Stein. «Som takk skal jeg så klart hjelpe dere!» Stein legger hendene på Varg og sier en trylleformel. Plutselig står Varg i menneskeform foran deg (uten klær, men likevel). Noen dager senere er dere hjemme igjen og bryllupet blir holdt. Trollmannslærlingen ble ikke invitert.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "intro.jpg"
+  },
+
+  "c111122": {
+              "main":
+              "Du svarer feil og Stein ser skuffet på deg. «Jeg kommer ikke til å hjelpe deg hvis du kun er 99,9% motivert!» Dere forlater Steins hus og begynner på turen hjem igjen. Alt håp er ute og Varg forblir ungkar og hund for resten av livet",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "regn.gif"
+  },
+
+  "c121111": {
+              "main":
+              "Den gamle damen gliser fornøyd og går i gang med å tilberede en drikk med ingredienser fra et lite skap. Hun heller brygget i en skål og gir det til Varg som slurper det i seg mens han rynker på snuten. Foran øynene dine forvandles han tilbake til sitt vanlige, lubne selv, dog liggende naken og forvirret på gulvet. Turen hjem går mye raskt. Varg kan nesten ikke vente til å se Hjørdis igjen. Vel hjemme blir dere møtt av Brynjar og Tord, og noen dager senere blir Varg og Hjørdis gift.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef2.png"
+  },
+
+  "c121112": {
+              "main":
+              "Heksa er tydeligvis en dårlig taper, for hun begynner å slenge sammen ingredienser mens hun furter og mumler til seg selv. Det virker ikke som hun tar seg veldig god tid til å lage trylledrikken. Hun setter en skål med den illeluktende guffen foran Varg, som motvillig drikker det. Til din (og Vargs) skrekk har Varg forvandlet seg til en slags menneske-hund-hybrid, med bygningen til en voksen mann men med pels og hoggtenner.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef2.png"
+  },
+
+  "c121121": {
+              "main":
+              "«Så klart!» utbryter Stein. «Som takk skal jeg så klart hjelpe dere!» Stein legger hendene på Varg og sier en trylleformel. Plutselig står Varg i menneskeform foran deg (uten klær, men likevel). Noen dager senere er dere hjemme igjen og bryllupet blir holdt. Trollmannslærlingen ble ikke invitert.",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "udef2.png"
+  },
+
+  "c121122": {
+              "main":
+              "Du svarer feil og Stein ser skuffet på deg. «Jeg kommer ikke til å hjelpe deg hvis du kun er 99,9% motivert!» Dere forlater Steins hus og begynner på turen hjem igjen. Alt håp er ute og Varg forblir ungkar og hund for resten av livet",
+
+              "opt1":
+              "Game over",
+
+              "opt2":
+              "Spill igjen",
+
+              "img":
+              "regn.gif"
+  }
+}

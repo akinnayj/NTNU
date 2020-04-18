@@ -1,0 +1,13 @@
+<div id="storyBox" class="storyBox">
+  <p id="mainText" class="storytext noMarkup">
+    <!-- Hovedteksten til spillet -->
+  </p>
+</div>
+<div class="optionBoxes">
+  <div id="opt1" class="box boxtext noMarkup">
+      <!-- Valg 1 -->
+  </div>
+  <div id="opt2" class="box boxtext noMarkup">
+      <!-- Valg 2 -->
+  </div>
+</div>
