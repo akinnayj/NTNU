@@ -1,5 +1,5 @@
 # Sykkelutleie
 Digital løsning for en utleievirksomhet
 
-![Sykkelutleie Logo](/logo.png)
+![Sykkelutleie Logo](/sykkelutleie-master/logo.PNG)
 Format: ![Alt Text](url)
